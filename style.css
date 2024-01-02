@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body{
+    font-family: 'Open Sans', serif, monospace;
+    background-color: white;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>img{
+    background-image: url(logo/logo.jpg);
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+header>button{
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #c00;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 15px;
+    left: 1040px;
+}
+header>button>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 50;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#fundo{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+}
+div#fundo2{
+    background-image: linear-gradient(to right, rgba(79, 77, 77, 0.816), rgba(37, 37, 37, 0.482), rgba(173, 172, 172, 0.256));
+    height: 376px
+}
+div#img{
+    
+    background-repeat: no-repeat;
+    background-size: 820px 420px;
+    background-position-y: -30px;
+    background-position-x:-10px ;
+    background-attachment: local;
+    position: absolute;
+    top: 90px;
+    left: -100px;
+    height: 680px;
+    width: 800px;
+}
+img{
+    height: 456px;
+    width: 689px;
+    position: absolute;
+    left: 63px;
+    top: -50px;
+}
+#box1{
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 200px;
+    box-shadow: 10px 10px 10px 10px 10px rgba(128, 128, 128, 0.309);
+}
+section#box1{
+    height: 286px;
+    width: 488px;
+    color: rgb(32, 32, 32);
+    position: absolute;
+    top: 114px;
+    left: 648px;
+    border-radius: 5px;
+    padding-left: 54px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 40px;
+    position: absolute;
+    top: 37px;
+    left: 33px;
+    font-weight: 358;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: grey;
+    font-variant: small-caps;
+    position: absolute;
+    top: 109px;
+    left: 36px;
+}
+input#cpf{
+    height: 54px;
+    width: 293px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 216px;
+    left: 33px;
+}
+#but{
+    color: white;
+    background-color: #c00;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 204px;
+    height: 53px;
+    position: absolute;
+    top: 212px;
+    left: 354px;   
+}
+#text1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 97%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100px;
+    position: absolute;
+    top: 510px;
+    left: 20px;
+}
+div#box2{
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 40%;
+    position: absolute;
+    top: 670px;
+    left: 120px;
+    box-shadow: 1px 10px 10px 10px rgba(128, 128, 128, 0.294);
+    border-radius: 5px;
+}
+div#box3{
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 40%;
+    position: absolute;
+    top: 670px;
+    left: 700px;
+    box-shadow: 1px 10px 10px 10px rgba(128, 128, 128, 0.294);
+    border-radius: 5px;
+}
+h1#box2{
+    font-size: 23px;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+img#cifra{
+    height: 120px;
+    width: 120px;
+    border-radius: 100000%;
+    position: absolute;
+    top: 46px;
+    left: 30px;
+}
+p#box2{
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 19px;
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+h1#box3{
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 23px;
+    position: absolute;
+    top: 40px;
+    left: 137px;
+}
+p#box3{
+    color: rgba(0, 0, 0, 0.799);
+    font-size: 19px;
+    position: absolute;
+    top: 110px;
+    left: 136px;
+}
+#porcento{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    left: 11px;
+}
+.partdois{
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 940px;
+    left: -7px;
+    width: 97%;
+}
+h1#partdois{
+    font-size: 30px;
+    font-weight: 90;
+}
