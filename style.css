@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -17,8 +16,8 @@ header>img{
     height: 50px;
     width: 150px;
     position: absolute;
-    top: 20px;
-    left: 120px;
+    top: 16px;
+    left: 113px;
 }
 header>button{
     font-size: 20px;
@@ -45,11 +44,10 @@ div#fundo{
     height: 80px;
 }
 div#fundo2{
-    background-image: linear-gradient(to right, rgba(79, 77, 77, 0.816), rgba(37, 37, 37, 0.482), rgba(173, 172, 172, 0.256));
+    background-image: linear-gradient(to right, rgba(75, 72, 72, 0.588), rgba(37, 37, 37, 0.496), rgba(102, 102, 102, 0.439), rgba(173, 172, 172, 0.04));
     height: 376px
 }
 div#img{
-    
     background-repeat: no-repeat;
     background-size: 820px 420px;
     background-position-y: -30px;
@@ -86,18 +84,18 @@ section#box1{
     padding-left: 54px;
     padding-right: 50px;
     padding-top: 20px;
-}
-
+}   
  h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-variant: small-caps;
+    font-variant: normal;
     font-size: 40px;
     position: absolute;
     top: 37px;
     left: 33px;
-    font-weight: 358;
+    font-weight: 100;
 }
 p{
+    font-variant: normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: grey;
@@ -107,6 +105,7 @@ p{
     left: 36px;
 }
 input#cpf{
+    font-variant: normal;
     height: 54px;
     width: 293px;
     border-radius: 5px;
@@ -127,6 +126,7 @@ input#cpf{
     left: 354px;   
 }
 #text1{
+    font-variant: normal;
     color: rgb(0, 0, 0);
     position: absolute;
     width: 97%;
@@ -139,18 +139,18 @@ input#cpf{
 }
 div#box2{
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
+    border-left: 2px solid #c00;
     height: 200px;
     width: 40%;
     position: absolute;
-    top: 670px;
+    top: 669px;
     left: 120px;
     box-shadow: 1px 10px 10px 10px rgba(128, 128, 128, 0.294);
     border-radius: 5px;
 }
 div#box3{
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
+    border-left: 2px solid #c00;
     height: 200px;
     width: 40%;
     position: absolute;
@@ -183,6 +183,7 @@ p#box2{
     left: 170px;
 }
 h1#box3{
+    font-variant: normal;
     color: rgba(0, 0, 0, 0.799);
     font-size: 23px;
     position: absolute;
@@ -204,89 +205,704 @@ p#box3{
     left: 11px;
 }
 .partdois{
+    background-color: rgba(196, 195, 195, 0.089);
+    font-variant: normal;
     text-align: center;
     color: black;
     position: absolute;
-    top: 940px;
-    left: -7px;
-    width: 97%;
+    top: 1030px;
+    left: px;
+    width: 100%;
+    height: 196vh;
 }
 h1#partdois{
-    font-size: 30px;
+    font-variant: normal;
+    font-size: 39px;
     font-weight: 90;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-    font-size: 1em;
+
+div#boxserv1{
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    height: 462px;
+    width: 329px;
+    position: absolute;
+    box-shadow: 5px 5px 15px 5px rgba(128, 128, 128, 0.294);
+    top: 189px;
+    left: 140px;
+    display: inline-block;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
-nav{
-    font-family: Arial, Helvetica, sans-serif;
-}
-nav>button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.6vh;
-    background-color: rgb(206, 19, 19);
-    color: white;
+#exdt{
+    background-color: #c00;
     position: relative;
-    left: 890px;
-    top: -12px;
-    border: solid;
-    width: 220px;
-    height: 50px;
-    border-radius: 6px;
+    top: -19px;
+    color: white;
+    width: 159px;
+    height: 38px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#verif{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 176px;
+    left: 19px;
+}
+#verif2{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 321px;
+    left: 19px;
+}
+#verif3{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 388px;
+    left: 19px;
+}
+#boxserv2{
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    height: 462px;
+    width: 350px;
+    box-shadow: 1px 10px 10px 10px rgba(128, 128, 128, 0.294);
+    position: absolute;
+    top: 189px;
+    left: 510px;
+    display: inline-block;
+}
+#boxserv3{
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    height: 462px;
+    width: 329px;
+    box-shadow: 1px 10px 10px 10px rgba(128, 128, 128, 0.294);
+    position: absolute;
+    top: 189px;
+    left: 910px;
+    display: inline-block;
+}
+#Vg{
+    font-variant: normal;
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    top: 37px;
+    left: 87px;
+}
+#valorvg{
+    font-variant: normal;
+    font-weight: 100;
+    font-size:39px ;
+    position: absolute;
+    top: 75px;
+    left: 89px;
+}
+#vgr{
+    position: relative;
+    top: 156px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+}
+#ver1{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 176px;
+    left: 20px;
+}
+#vgh1{
+    font-variant: normal;
+    font-weight: 320;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 176px;
+    left: 60px;
+}
+#ver2{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 252px;
+    left: 20px;
+}
+#vgh2{
+    font-variant: normal;
+    font-weight: 320;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 247px;
+    left: 60px;
+}
+#vgh3{
+    font-variant: normal;
+    font-weight: 100;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left;
+    width: 240px;
+    position: absolute;
+    top: 322px;
+    left: 60px;
+}
+#ver3{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 321px;
+    left: 19px;
+}
+#SP{
+    font-variant: normal;
+    font-size: 25px;
+    font-weight: 100;
+    position: absolute;
+    top: 37px;
+    left: 97px;
+}
+#SPnum{
+    font-variant: normal;
+    font-weight: 100;
+    font-size:39px ;
+    position: absolute;
+    top: 75px;
+    left: 89px;
+}
+#SPhr{
+    position: relative;
+    top: 156px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+}
+#sp1{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 176px;
+    left: 20px;
+}
+#sph1{
+    font-variant: normal;
+    font-weight: 320;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 176px;
+    left: 60px;
+}
+#sp2{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 251px;
+    left: 20px;
+}
+#sph2{
+    font-variant: normal;
+    font-weight: 320;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 247px;
+    left: 60px;
+}
+#sp3{
+    height: 20px;
+    width: 29px;
+    position: absolute;
+    top: 349px;
+    left: 19px;
+}
+#sph3{
+    font-variant: normal;
+    font-weight: 100;
+    font-size: 19px;
+    color: rgb(57, 57, 57);
+    text-align:left;
+    width: 240px;
+    position: absolute;
+    top: 352px;
+    left: 60px;
+}
+#bx{
+    font-variant: normal;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 40px;
+    left: 85px;
+}
+#bx2{
+    font-variant: normal;
+    font-size: 39px;
+    font-weight: 100;
+    position: absolute;
+    top: 75px;
+    left: 70px;
+}
+#mes{
+    font-weight: 100;
+    font-variant: normal;
+    font-variant: normal;
+    position: absolute;
+    top: 94px;
+    left: 225px;
+}
+#mes2{
+    font-weight: 100;
+    font-variant: normal;
+    position: absolute;
+    top: 94px;
+    left: 240px;
+}
+hr{
+    position: relative;
+    top: 118px;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+}
+#verifph{
+    font-variant: normal;
+    font-size: 20px;
+    width: 270px;
+    text-align: justify;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+#p{
+    font-variant: normal;
+    font-weight: 540;
+    line-height: 1.5;
+    color: rgb(58, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 179px;
+    left: 60px;
+}
+#p2{
+    font-variant: normal;
+    font-weight: 540;
+    line-height: 1.5;
+    color: rgb(58, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 322px;
+    left: 60px;
+}
+#p3{
+    font-variant: normal;
+    font-weight: 540;
+    line-height: 1.5;
+    color: rgb(58, 57, 57);
+    text-align:left ;
+    width: 240px;
+    position: absolute;
+    top: 389px;
+    left: 60px;
+}
+#boxinfo2{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    position: relative;
+    height: 474px;
+    width: 1130px;
+    display: block;
+    margin: auto;
+    top: 784px;
+    left: -1px;
+    border-radius: 4px;
+}
+#inh{
+    font-weight: 100;
+    font-variant: normal;
+    text-align: center;
+    font-size: 22px;
+    height: 300px;
+    width: 660px;
+    position: absolute;
+    top: 50px;
+    left: 220px;
+}
+#inh2{
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: 100;
+    font-variant: normal;
+    text-align: center;
+    font-size: 42px;
+    height: 300px;
+    width: 810px;
+    position: absolute;
+    top: 180px;
+    left: 160px;
     
 }
-nav>button>a{
-    text-decoration: none;
-    color: white;
-}
-nav>img{
-    height: 55px;
-    position: relative;
-    top: 15px;
-    left: 100px;
-}
-header{
-    background-image: linear-gradient(to right, rgb(119, 118, 118), rgba(218, 215, 215, 0));
-}
-#box2{
-    background-image: url(logo/abrasuaconta.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
-    width: 110%;
-    background-attachment: local;
-    position: relative;
-    top: -10px;
-    left: 20px;
-    height: 350px;    
-}
-div#box3{
-    background-image: url(img/dasdsa.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    top: 200px;
-    left: 450px;
-}
-section{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.753);
-    font-style: normal;
-    padding: 45px;
-    margin: 30px;
-    text-align: center;
-}
-div#print{
-    background-image: url(img/asdasd.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+.infocard{
+    background-color: rgba(41, 172, 212, 0.062);
+    height: 500px;
     width: 100%;
-    height: 400px;
+    position: absolute;
+    top: 1330px;
+}
+#imgcard{
+    position: absolute;
+    top: 70px;
+    left: 724px;
+    height: 300px;
+    width: 400px;
+}
+#textcard{
+    font-weight: 100;
+    font: 20px;
+    font-variant: normal;
+    text-align: justify;
+    width: 480px;
+    position: absolute;
+    top: 129px;
+    left: 115px;
+}
+#hcard{
+    text-align: justify;
+    font-weight: 180;
+    width: 490px;
+    font-size: 18px;
     position: relative;
-    top: -170px;
+    top: 240px;
+    left: 120px;
+}
+#mob{
+    background-image: url(cards/celular.png);
+    height: 700px;
+    width: 800px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1903px;
+    left: 117px;
+}
+#mobh{
+    font-weight: 100;
+    position: absolute;
+    height: 300px;
+    width: 95%;
+    top: 46px;
+    left: 466px;
+    text-align: justify;
+}
+#circulo1{
+    border: 1px solid rgba(124, 123, 123, 0.425);
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    position: absolute;
+    top: 213px;
+    left: 465px;
+}
+#numer1{
+    color: #c00;
+    font-size: 25px;
+    position: absolute;
+    top: 222px;
+    left: 483px;
+    font-weight: 100;
+}
+#circulo2{
+    border: 1px solid rgba(124, 123, 123, 0.425);
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    position: absolute;
+    top: 323px;
+    left: 465px;
+}
+#numer2{
+    color: #c00;
+    font-size: 25px;
+    position: absolute;
+    top: 332px;
+    left: 483px;
+    font-weight: 100;
+}
+#circulo3{
+    border: 1px solid rgba(124, 123, 123, 0.425);
+    border-radius: 50%;
+    width: 6%;
+    height: 6%;
+    position: absolute;
+    top: 448px;
+    left: 465px;
+}
+#numer3{
+    color: #c00;
+    font-size: 25px;
+    position: absolute;
+    top: 456px;
+    left: 483px;
+    font-weight: 100;
+}
+#textmob{
+    font-weight: 100;
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+    top: 211px;
+    left: 544px;
+    width: 600px;
+}
+#textmob2{
+    font-weight: 100;
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+    top: 319px;
+    left: 544px;
+    width: 600px;   
+}
+#textmob3{
+    font-weight: 100;
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+    top: 425px;
+    left: 544px;
+    width: 600px;
+}
+#fimobi{
+    font-weight: 100;
+    text-align: justify;
+    font-size: 25px;
+    position: absolute;
+    top: 550px;
+    left: 465px;
+    width: 600px;
+}
+.infoloc{
+    background-color: rgba(138, 138, 138, 0.034);
+    width: 100%;
+    height: 1070px;
+    position: absolute;
+    top: 2638px;
+}
+#boxinf1{
+    border: px solid rgb(255, 255, 255);
+    width: 670px;
+    height: 534px;
+}
+#h1inf{
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.5;
+    position: absolute;
+    top: 140px;
+    left: 115px;
+}
+#h2inf{
+    text-align: justify;
+    font-weight: 100;
+    line-height: 1.5;
+    position: absolute;
+    width: 430px;
+    font-size: 20px;
+    top: 280px;
+    left: 115px;
+}
+#boxinf2{
+    background-image: url(cards/santand.jpg);
+    border: px solid rgb(255, 255, 255);
+    width: 673px;
+    height: 576px;
+    position: absolute;
+    top: 2px;
+    left: 676px;
+}
+#boxinfo3{
+    background-color: #c00;
+    border: px solid white;
+    width: 673px;
+    height: 582px;
+    position: absolute;
+    top: 536px;
+    left: 676px;
+}
+#infinf{
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    top: 102px;
+    left: 105px;
+    font-size: 20px;
+}
+#inff{
+    color: white;
+    text-align: justify;
+    width: 400px;
+    position: absolute;
+    top: 160px;
+    font-weight: 100;
+    left: 105px;
+}
+#boxinf4{
+    background-image: url(cards/moca.jpg);
+    background-repeat: no-repeat;
+    border: px solid rgb(255, 255, 255);
+    width: 676px;
+    height: 585px;
+    position: absolute;
+    top: 535px;
+    left: px;
+    line-height: 2.9;
+}
+#cpf2{
+    position: absolute;
+    top: 344px;
+    border-radius: 5px;
+    background-color: #c00;
+    color: white;
+    border: 1px solid white;
+    left: 99px;
+    width: 440px;
+    height: 45px;
+}
+#butfim{
+    color: #c00;
+    position: absolute;
+    top: 435px;
+    left: 100px;
+    width: 200px;
+    height: 55px;
+    border-radius: 6px;
+    border: 1px;
+}
+#footer{
+    background-color: #222;
+    height: 590px;
+    position: relative;
+    top: 3270px;
+}
+#ff{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 75px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f1{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 146px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f2{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 215px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f3{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 263px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f4{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 310px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+#f5{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 287px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f6{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 330px;
+    left: 116px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#f7{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 350px;
+    left: 122px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#fiim{
+    position: relative;
+    top: 430px;
+    left: 115px;
+    background-color: white;
+    width: 1123px;
+    
+}
+#credit{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 467px;
+    left: 112px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#credit2{
+    color: rgb(134, 133, 133);
+    font-weight: 100;
+    position: absolute;
+    top: 497px;
+    left: 112px;
+    width: 960px;
+    font-size: 19px;
+    text-align: justify;
+}
+#id{
+    color: rgb(134, 133, 133);
+    position: absolute;
+    top: 9000px;
 }
